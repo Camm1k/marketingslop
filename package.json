@@ -1,0 +1,27 @@
+{
+  "name": "marketingslop",
+  "version": "1.0.0",
+  "description": "Data-driven PNG poster renderer",
+  "scripts": {
+    "render": "node render.mjs",
+    "example": "node render.mjs seed/recap-example.json output/recap-example.png",
+    "test": "node --test test/*.test.mjs",
+    "browser:install": "playwright install chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camm1k/marketingslop.git"
+  },
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Camm1k/marketingslop/issues"
+  },
+  "homepage": "https://github.com/Camm1k/marketingslop#readme",
+  "devDependencies": {
+    "playwright": "1.64.1"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1350
+  },
+  "sources": {
+    "brief": {
+      "name": "User-supplied brief",
+      "note": "Session date and all figures supplied by the user; not independently verified."
+    },
+    "levels": {
+      "name": "TheStreet",
+      "note": "Closing levels, attributed by the user. No article URL supplied."
+    },
+    "movers": {
+      "name": "User-supplied brief",
+      "note": "Percentage changes confirmed as verified by the user. No external article URL supplied. The five negative moves are intraday."
+    }
+  },
+  "eyebrow": {
+    "left": "US CLOSE",
+    "right": "26 OCT 2026",
+    "source": "brief"
+  },
+  "hero": {
+    "label": "S&P 500",
+    "figure": {
+      "value": 0.7,
+      "decimals": 2,
+      "unit": "%",
+      "signed": true,
+      "tone": "rise",
+      "source": "levels"
+    }
+  },
+  "table": {
+    "headers": [
+      "INDEX",
+      "CLOSE \u00b7 PTS",
+      "CHANGE \u00b7 PTS",
+      "CHANGE \u00b7 %"
+    ],
+    "rows": [
+      {
+        "label": "S&P 500",
+        "source": "levels",
+        "cells": [
+          {
+            "value": 7676.8,
+            "decimals": 2,
+            "unit": "pts",
+            "source": "levels"
+          },
+          {
+            "value": 53.12,
+            "decimals": 2,
+            "unit": "pts",
+            "signed": true,
+            "tone": "rise",
+            "source": "levels"
+          },
+          {
+            "value": 0.7,
+            "decimals": 2,
+            "unit": "%",
+            "signed": true,
+            "tone": "rise",
+            "source": "levels"
+          }
+        ]
+      },
+      {
+        "label": "NASDAQ",
+        "source": "levels",
+        "cells": [
+          {
+            "value": 26169.38,
+            "decimals": 2,
+            "unit": "pts",
+            "source": "levels"
+          },
+          {
+            "value": 214.04,
+            "decimals": 2,
+            "unit": "pts",
+            "signed": true,
+            "tone": "rise",
+            "source": "levels"
+          },
+          {
+            "value": 0.82,
+            "decimals": 2,
+            "unit": "%",
+            "signed": true,
+            "tone": "rise",
+            "source": "levels"
+          }
+        ]
+      },
+      {
+        "label": "DOW",
+        "source": "levels",
+        "cells": [
+          {
+            "value": 52361.52,
+            "decimals": 2,
+            "unit": "pts",
+            "source": "levels"
+          },
+          {
+            "value": 146.36,
+            "decimals": 2,
+            "unit": "pts",
+            "signed": true,
+            "tone": "rise",
+            "source": "levels"
+          },
+          {
+            "value": 0.28,
+            "decimals": 2,
+            "unit": "%",
+            "signed": true,
+            "tone": "rise",
+            "source": "levels"
+          }
+        ]
+      }
+    ]
+  },
+  "columns": [
+    {
+      "heading": "GAINERS",
+      "rows": [
+        {
+          "label": "RRC",
+          "figure": {
+            "value": 15.95,
+            "decimals": 2,
+            "unit": "%",
+            "signed": true,
+            "tone": "rise",
+            "source": "movers"
+          }
+        },
+        {
+          "label": "LITE",
+          "figure": {
+            "value": 8.2,
+            "decimals": 2,
+            "unit": "%",
+            "signed": true,
+            "tone": "rise",
+            "source": "movers"
+          }
+        },
+        {
+          "label": "AAOI",
+          "figure": {
+            "value": 7.3,
+            "decimals": 2,
+            "unit": "%",
+            "signed": true,
+            "tone": "rise",
+            "source": "movers"
+          }
+        },
+        {
+          "label": "DOCN",
+          "figure": {
+            "value": 6.7,
+            "decimals": 2,
+            "unit": "%",
+            "signed": true,
+            "tone": "rise",
+            "source": "movers"
+          }
+        },
+        {
+          "label": "ARM",
+          "figure": {
+            "value": 6.3,
+            "decimals": 2,
+            "unit": "%",
+            "signed": true,
+            "tone": "rise",
+            "source": "movers"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "LOSERS",
+      "rows": [
+        {
+          "label": "XP",
+          "figure": {
+            "value": -50.0,
+            "decimals": 1,
+            "unit": "%",
+            "signed": true,
+            "tone": "fall",
+            "qualifier": "INTRADAY",
+            "source": "movers"
+          }
+        },
+        {
+          "label": "NU",
+          "figure": {
+            "value": -20.0,
+            "decimals": 1,
+            "unit": "%",
+            "signed": true,
+            "tone": "fall",
+            "qualifier": "INTRADAY",
+            "source": "movers"
+          }
+        },
+        {
+          "label": "FICO",
+          "figure": {
+            "value": -14.49,
+            "decimals": 2,
+            "unit": "%",
+            "signed": true,
+            "tone": "fall",
+            "qualifier": "INTRADAY",
+            "source": "movers"
+          }
+        },
+        {
+          "label": "PBR",
+          "figure": {
+            "value": -14.1,
+            "decimals": 2,
+            "unit": "%",
+            "signed": true,
+            "tone": "fall",
+            "qualifier": "INTRADAY",
+            "source": "movers"
+          }
+        },
+        {
+          "label": "MELI",
+          "figure": {
+            "value": -8.0,
+            "decimals": 2,
+            "unit": "%",
+            "signed": true,
+            "tone": "fall",
+            "qualifier": "INTRADAY",
+            "source": "movers"
+          }
+        }
+      ]
+    }
+  ],
+  "note": {
+    "text": null
+  },
+  "footer": {
+    "lines": [
+      "CLOSING LEVELS: THESTREET \u00b7 AS SUPPLIED",
+      "MOVERS: USER-SUPPLIED DATA"
+    ],
+    "handle": null
+  }
+}
